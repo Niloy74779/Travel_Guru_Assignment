@@ -1,10 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-color: #00000073;
+  background-image: url(./bgImg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+  height: 718px;
+  margin:0px;
+  overflow: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
