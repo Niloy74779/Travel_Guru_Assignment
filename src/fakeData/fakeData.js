@@ -1,18 +1,18 @@
 const fakeData = [
     {
-        name:'SAJEK',
-        details:'Sajek is a union located in the north of Chittagong Hill Tracts. It is under Baghaichori Upazila in Rangamati hill district, it is situated 67 kilometres (42 mi) north-east from Khagrachhari town and 95 kilometres (59 mi) north from Rangamati city',
-        image:'https://iili.io/2nSoAb.png'
+        name:'Sajek valley',
+        details:'Sajek valley: Sajek is a union at Baghaichari Upazila in Rangamati districts. Basically it is name of a river which separates Bangladesh from India. The river flows into the Karnafuli River in the Chittagong Hill Tracts. Sajek Valley is situated in the North angle of Rangamati, near the Mizoram border boundary area. The valley is 1,800 ft high form sea lavel. ',
+        image:'https://img.techpowerup.org/200917/sreemongol.png'
     },
     {
-        name:'SREEMONGOL',
-        details:'Sreemangal is situated in Moulvibazar district in sylhet division. Sreemangal is an Upazila. It is famous for tea garden. Rain all time occurs here. Nature has adorned sreemangal with green tress. Its natural scenery is very charming. It soothes one’s eyes. Birds are twittering always here.',
-        image:'https://iili.io/2nSxNj.png'
+        name:"Cox's Bazar",
+        details: "It is famous mostly for its long natural sandy beach, and it is infamous for the largest refugee camp in the world. It is located 150 km (93 mi) south of the divisional headquarter city of Chittagong. Cox's Bazar is also known by the name Panowa, which translates literally as yellow flower",
+        image:'https://img.techpowerup.org/200917/sajek.png'
     },
     {
-        name:'SUNDORBON',
-        details:'The Sundarbans mangrove forest, one of the largest such forests in the world (140,000 ha), lies on the delta of the Ganges, Brahmaputra and Meghna rivers on the Bay of Bengal. It is adjacent to the border of India is Sundarbans World Heritage site inscribed in 1987.',
-        image:'https://iili.io/2nSzDx.png'
+        name:'Sundarbans',
+        details:'The human-eating tigers of the Sundarbans steal the headlines, but Bangladesh has plenty of wildlife besides. Royal Bengal tiger The Sundarbans National Park has the worlds largest single population of tigers – have fun trying to spot one.',
+        image:'https://img.techpowerup.org/200917/sundorbon.png'
     },
 ]
 
