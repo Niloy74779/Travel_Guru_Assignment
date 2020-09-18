@@ -16,7 +16,7 @@ const Checkout = () => {
                         <h5>Light bright airy stylish apt & safe peaceful stay</h5>
                         <p className='mb-0'>4 guest 2bedrooms 2beds 2baths <br/> Wif Air conditiong Kitchen <br/> Cancellation fexibility availiable</p>
                         <img style={{width:'20px'}} src='https://iili.io/2oqMhu.png' alt=""/>
-                        <span className='font-weight-bold ml-1'>4.9(20)</span>
+                        <span className='font-weight-bold ml-1'>5(20)</span>
                         <span><span className='font-weight-bold ml-5'>$34/</span>night</span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Checkout = () => {
                         <p className='mb-0'>4 guest 2bedrooms 2beds 2baths <br/> Wif Air conditiong Kitchen <br/> Cancellation fexibility availiable</p>
                         <img style={{width:'20px'}} src='https://iili.io/2oqMhu.png' alt=""/>
                         <span className='font-weight-bold ml-1'>4.8(10)</span>
-                        <span><span className='font-weight-bold ml-5'>$52/</span>night</span>
+                        <span><span className='font-weight-bold ml-5'>$72/</span>night</span>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ const Checkout = () => {
                         <p className='mb-0'>4 guest 2bedrooms 2beds 2baths <br/> Wif Air conditiong Kitchen <br/> Cancellation fexibility availiable</p>
                         <img style={{width:'20px'}} src='https://iili.io/2oqMhu.png' alt=""/>
                         <span className='font-weight-bold ml-1'>4.9(25)</span>
-                        <span><span className='font-weight-bold ml-5'>$44/</span>night</span>
+                        <span><span className='font-weight-bold ml-5'>$49/</span>night</span>
                     </div>
                 </div>
             </div>

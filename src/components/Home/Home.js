@@ -1,18 +1,18 @@
 import React, { createContext, useEffect, useState } from 'react';
+import fakeData from '../../fakeData/fakeData';
+import Login from '../Login/Login';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
-import fakeData from '../../fakeData/fakeData';
-import Login from '../Login/Login';
 import Checkout from '../Checkout/Checkout';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
-import hotelData from '../../fakeData/hotelData/hotelData';
-import Booking from '../Booking/Booking';
 import HomePlaces from '../HomePlaces/HomePlaces';
 import Hader from '../Hader/Hader';
+import hotelData from '../../fakeData/hotelData/hotelData';
+import Booking from '../Booking/Booking';
 import NotFound from '../NotFound/NotFound';
 
 export const UserContext = createContext();

@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import { UserContext } from '../Home/Home';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { useHistory } from 'react-router-dom';
+import { UserContext } from '../Home/Home';
 import './HomePlaces.css'
 
 const HomePlaces = () => {

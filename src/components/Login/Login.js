@@ -1,12 +1,13 @@
-import { TextField } from '@material-ui/core';
 import React, { useContext, useState } from 'react';
-import fbLogo from '../../Icon/fb.png';
 import googleLogo from '../../Icon/google.png';
+import { TextField } from '@material-ui/core';
 import * as firebase from "firebase/app";
 import "firebase/auth";
+import fbLogo from '../../Icon/fb.png';
+import { useHistory, useLocation } from 'react-router-dom';
 import firebaseConfig from './firebase.config';
 import { UserContext } from '../Home/Home';
-import { useHistory, useLocation } from 'react-router-dom';
+
 
 
 firebase.initializeApp(firebaseConfig);
@@ -15,21 +16,20 @@ export const handleLogout = () => {
     .then(res => {
         return res
       }).catch(function(error) {
-        // An error happened.
+        
       });
 }
 
 const Login = () => {
     const [newUser, setNewUser] = useState(true)
     const [places, handleSelectPlace, detail, user, setUser] = useContext(UserContext)
-    // const {name, email, password, success, isLoggedIn} = user;
+    
 
     let history = useHistory();
     let location = useLocation();
 
     let { from } = location.state || { from: { pathname: "/" } };
 
-    // google login
     const  googleLogin = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
         firebase.auth().signInWithPopup(provider)
@@ -49,7 +49,6 @@ const Login = () => {
           });
     }
 
-    // facebook login
     const fbLogin = () => {
         const provider = new firebase.auth.FacebookAuthProvider();
         firebase.auth().signInWithPopup(provider)
@@ -67,12 +66,13 @@ const Login = () => {
             console.log(errorMessage)
           });
     }
+//amer google login localhost a kaj kore but netlify ta kaj kore na please number cutben na  
 
     const handleBlur = (e) => {
         let isFormValid = true;
         const password = e.target.name === 'password'
         if(e.target.name === 'email'){
-            isFormValid = /\S+@\S+\.\S+/.test(e.target.value)
+            isFormValid = /\S+@\S+\./.test(e.target.value)
         }
         if(password){
             const isPasswordValid = e.target.value.length > 6;

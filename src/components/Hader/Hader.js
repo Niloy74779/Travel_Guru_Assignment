@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import logo from '../../Logo.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import logo from '../../Logo.png';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Link, useHistory } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { UserContext } from '../Home/Home';
 import firebaseConfig from '../Login/firebase.config';
 
@@ -21,7 +21,7 @@ const Hader = () => {
                 <div className="input-group-prepend">
                   <FontAwesomeIcon style={{fontSize:'25px'}} className='text-white m-2' icon={faSearch} />
                 </div>
-                <input type="text" style={{backgroundColor:'#ffffff4d'}} className="form-control color-white" placeholder="Search your destination" aria-label="Username" aria-describedby="basic-addon1"/>
+                <input type="text" style={{backgroundColor:'#ffffff4d'}} className="form-control color-white" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1"/>
             </div>
             <button className="btn mx-1 text-white">News</button>
             <Link to='/home' className="btn mx-1 text-white">Destination</Link>
