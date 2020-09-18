@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-const Book = () => {
+const Booking = () => {
     const [places, handleSelectPlace, detail, user, setUser] = useContext(UserContext);
     const {name, details} = detail;
     const classes = useStyles();
@@ -52,11 +52,11 @@ const Book = () => {
                         shrink: true,
                         }}
                     />
-                    <button onClick={handleCheckout} className='btn btn-warning w-50' type="submit">Start Booking</button>
+                    <button onClick={handleCheckout} className='btn btn-warning w-50' type="submit">Book Now</button>
                 </form>
             </div>
         </div>
     );
 };
 
-export default Book;
+export default Booking;

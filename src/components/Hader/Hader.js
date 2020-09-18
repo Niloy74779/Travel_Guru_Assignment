@@ -9,7 +9,7 @@ import firebaseConfig from '../Login/firebase.config';
 
 
 
-const Navbar = () => {
+const Hader = () => {
     const [places, handleSelectPlace, detail, user, setUser] = useContext(UserContext);
 
 
@@ -36,4 +36,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Hader;

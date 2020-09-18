@@ -173,11 +173,11 @@ const Login = () => {
             <p>Or</p>
             <div style={{cursor:'pointer'}} onClick={fbLogin} className='border border-secondary d-flex justify-content-center align-items-center py-1 w-50 mx-auto rounded-pill mb-2' >
                 <img className='mx-2 ' style={{width:'30px'}} src={fbLogo} alt=""/>
-                <p className='mb-0  '>Continue with facebook</p>
+                <p className='mb-0  '>Login with facebook</p>
             </div>
             <div style={{cursor:'pointer'}} onClick={googleLogin} className='border border-secondary d-flex justify-content-center align-items-center py-1 w-50 mx-auto rounded-pill' >
                 <img className='mx-2 ' style={{width:'30px'}} src={googleLogo} alt=""/>
-                <p className='mb-0 '>Continue with Google</p>
+                <p className='mb-0 '>Login with Google</p>
             </div>
         </div>
     );

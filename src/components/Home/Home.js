@@ -5,15 +5,15 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import Places from '../Places/Places';
-import fakeData from '../../fakeData/fakeData'
-import NoMatch from '../NoMatch/NoMatch';
-import Book from '../Book/Book';
+import fakeData from '../../fakeData/fakeData';
 import Login from '../Login/Login';
-import Navbar from '../Navbar/Navbar';
 import Checkout from '../Checkout/Checkout';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
-import hotelFakeData from '../../fakeData/hotelFakeData/hotelFakeData';
+import hotelData from '../../fakeData/hotelData/hotelData';
+import Booking from '../Booking/Booking';
+import HomePlaces from '../HomePlaces/HomePlaces';
+import Hader from '../Hader/Hader';
+import NotFound from '../NotFound/NotFound';
 
 export const UserContext = createContext();
 
@@ -42,16 +42,16 @@ const Home = () => {
     return (
         <UserContext.Provider value={[places, handleSelectPlace, detail, user, setUser, showPlaceDetail]}>
             <Router>
-               <Navbar></Navbar>
+               <Hader/>
                 <Switch>
                     <Route path='/home'>
-                        <Places></Places>
+                        <HomePlaces/>
                     </Route>
                     <Route exact path='/'>
-                        <Places></Places>
+                        <HomePlaces/>
                     </Route>
                     <Route path='/book'>
-                        <Book></Book>
+                        <Booking/>
                     </Route>
                     <Route path='/login'>
                         <Login></Login>
@@ -60,7 +60,7 @@ const Home = () => {
                         <Checkout></Checkout>
                     </PrivateRoute>
                     <Route path='*'>
-                        <NoMatch></NoMatch>
+                        <NotFound/>
                     </Route>
                 </Switch>
             </Router>

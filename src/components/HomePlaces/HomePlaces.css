@@ -1,0 +1,4 @@
+.destination-img:hover{
+    box-shadow: 2px 5px 20px 5px rgba(0,0,0,0.38);
+    cursor: pointer;
+}
